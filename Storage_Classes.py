@@ -37,3 +37,13 @@ class GamePieceCollection(Stack):
 
     def __init__(self, elements):
         super().__init__(elements)
+
+
+class GamePiece:
+
+    """ This class is for storing the state of the various gamepieces used by
+    the players in the game.
+    """
+
+    def __init__(self, label):
+        self.label = label
