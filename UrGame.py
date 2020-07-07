@@ -26,9 +26,6 @@ def roll_dice():
         P(X = 4) = 0.0625
 
     Note here that X represents the roll outcome, which this function returns.
-
     """
 
     return int(binomial(4, 0.5, 1))
-
-print(roll_dice())
